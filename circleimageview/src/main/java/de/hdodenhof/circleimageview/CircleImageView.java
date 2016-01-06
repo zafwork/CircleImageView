@@ -36,7 +36,9 @@ import android.support.annotation.DrawableRes;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-public class CircleImageView extends ImageView {
+import com.android.volley.toolbox.NetworkImageView;
+
+public class CircleImageView extends NetworkImageView {
 
     private static final ScaleType SCALE_TYPE = ScaleType.CENTER_CROP;
 
